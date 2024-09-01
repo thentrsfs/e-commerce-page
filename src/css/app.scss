@@ -1,0 +1,56 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: "KumbhSans-Regular";
+  src: url("fonts/static/KumbhSans-Regular.ttf");
+}
+
+body {
+  font-family: "KumbhSans-Regular", sans-serif;
+}
+
+.nav-button {
+  position: absolute;
+  top: 42%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.nav-button-mobile {
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.close-button {
+  position: absolute;
+  top: 5%;
+  left: 87%;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: white;
+}
+
+.nav-button:hover {
+  color: $primary;
+}
+
+.nav-button,
+.nav-button-mobile {
+  background-color: white;
+}
+
+.nav-button.left {
+  left: 10px;
+}
+
+.nav-button.right {
+  right: 10px;
+}
+.nav-button-mobile.left {
+  left: 10px;
+}
+
+.nav-button-mobile.right {
+  right: 10px;
+}
